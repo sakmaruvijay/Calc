@@ -2,7 +2,7 @@
 import { DISPLAY, EVALUATE } from '../actions/actions';
 
 // Action creator for displaying expression
-export const pmgetDisplayAction = (input) => {
+export const getDisplayAction = (input) => {
     return {
         type: DISPLAY,
         text: input
